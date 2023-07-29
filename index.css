@@ -45,14 +45,6 @@ body {
   }
 }
 
-.card-viewport {
-  position: absolute;
-  width: 100vw;
-  top: 40%;
-  height: 60%;
-  overflow: hidden;
-}
-
 .card-carrier {
   height: 100%;
   width: 100vw;
