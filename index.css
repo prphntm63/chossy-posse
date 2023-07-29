@@ -45,6 +45,13 @@ body {
 
 .card-body {
   overflow-y: scroll !important;
+  scrollbar-width: none;
+  -ms-overflow-style: none;
+}
+
+.container::-webkit-scrollbar { /* WebKit */
+  width: 0;
+  height: 0;
 }
 
 table {
