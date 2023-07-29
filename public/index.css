@@ -1,0 +1,74 @@
+body {
+  background-color: #b6c8d2;
+  font-family: 'Victor Mono', monospace !important;
+}
+
+.main-logo {
+  max-width: 85%;
+  max-height: 85%;
+  object-fit: contain;
+}
+
+@media only screen and (min-device-width: 450px) {
+  .main-logo {
+    max-width: 70%;
+    max-height: 90%;
+    padding: 40px;
+    object-fit: contain;
+  }
+}
+
+.card-viewport {
+  position: absolute;
+  width: 100vw;
+  top: 40%;
+  height: 60%;
+  overflow: hidden;
+}
+
+.card-carrier {
+  height: 100%;
+  width: 100vw;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.card {
+  width: 18rem;
+}
+
+.card-title {
+  margin-left: 0.5rem;
+}
+
+table {
+  border-collapse: collapse;
+  font-size: small !important;
+}
+
+tr {
+  border-bottom: 1px solid rgba(0,0,0,0.2) !important;
+}
+
+#card-container {
+  position: absolute;
+  top: 0;
+  transition: left 0.75s, right 0.75s;
+  display: flex;
+  height: 100%;
+}
+
+.arrow-button {
+  position: fixed;
+  top: 50vh;
+  width: 2rem;
+  height: 2rem;
+  border-radius: 0.5rem;
+  background-color: rgba(0,0,0,0.4);
+  color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  cursor: pointer;
+}
