@@ -42,6 +42,10 @@ body {
   margin-left: 0.5rem;
 }
 
+.card-body {
+  overflow-y: scroll !important;
+}
+
 table {
   border-collapse: collapse;
   font-size: small !important;
